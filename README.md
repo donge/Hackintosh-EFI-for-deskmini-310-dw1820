@@ -26,7 +26,7 @@ Bios Set:
    - Super IO Configuration, Serial Port, Disabled
 3. Security Secure Boot, Disabled(by default)
 
-这一步很重要，认真配置，我就是遗漏了XHCI Hand-off，浪费了小半天。
+   这一步很重要，认真配置，我就是遗漏了XHCI Hand-off，浪费了小半天。
 
 EFI Set:
 
