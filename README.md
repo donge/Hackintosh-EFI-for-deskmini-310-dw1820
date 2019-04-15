@@ -1,0 +1,1 @@
+# Hackintosh-EFI-for-deskmini-310-dw1820
