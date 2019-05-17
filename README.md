@@ -38,6 +38,21 @@ EFI Set:
 
 黑苹果核显启动成功后，视频信号会从 DP 输出，hdmi会没信号，显示器无dp的需要一条DP->HDMI线，推荐绿联 DP111。
 
+*注意config.plist文件有改动，增加bios3.1版本之后支持*
+
+```
+<dict> 
+  <key>Comment</key>  
+  <string>Fix RTC _STA bug</string>  
+  <key>Disabled</key>  
+  <false/>  
+  <key>Find</key>  
+  <data>oAqTU1RBUwE=</data>  
+  <key>Replace</key>  
+  <data>oAqRCv8L//8=</data> 
+</dict>
+```
+
 deskmini讨论群：580456695
 
 ### 参考
