@@ -2,7 +2,7 @@
 
 
 
-EFI 用于 10.14.4，安装完后无需任何配置，完美使用。
+EFI 用于 10.14.5，安装后无需额外配置，完美使用。
 
 ### 我的配置
 
@@ -26,18 +26,16 @@ Bios Set:
    - Super IO Configuration, Serial Port, Disabled
 3. Security Secure Boot, Disabled(by default)
 
-   这一步很重要，认真配置，我就是遗漏了XHCI Hand-off，浪费了小半天。
+   bios配置很，很多朋友都挂在这一步。我当时遗漏了XHCI Hand-off，浪费了小半天时间。
 
 EFI Set:
 
-   把启动U盘中的EFI删除，使用新的EFI进行替换，安装过程中WIFI能正常工作。
+   把启动U盘中的EFI删除，使用新的EFI进行替换，安装过程中WIFI能正常工作。如果没有无线网卡，建议删除EFI中的AirportBrcmFixup.kext、BrcmFirmwareRepo.kext、BrcmPatchRAM2.kext，可能导致无法正常安装。
 
 ### 其他
 
-无线网卡是`DW1820`，免驱DW1560的已经炒到200+了，伤不起。无线网络OK，蓝牙30cm内OK，信号比较弱，能接受。
-
-黑苹果核显启动成功后，视频信号会从 DP 输出，hdmi会没信号，显示器无dp的需要一条DP->HDMI线，推荐绿联 DP111。
-
+无线网卡是`DW1820`，免驱DW1560的已经炒到200+了，贫穷。当前无线网络OK，不过有300M限制，蓝牙基本无法使用。
+kext无任何改动，均官方渠道使用，大家放心食用。
 *注意config.plist文件有改动，增加bios3.1版本之后支持*
 
 ```
