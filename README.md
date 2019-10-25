@@ -29,7 +29,7 @@ Bios Set:
 
 4. CSM disable
 
-5. CFG Lock: Disabled (关键）
+5. CFG Lock: Disabled (关键，我BIOS没找到，如果找不到可以忽略试试）
 
    bios配置很重要，很多朋友都挂在这一步。我当时遗漏了XHCI Hand-off,浪费了小半天时间，sad。
 
