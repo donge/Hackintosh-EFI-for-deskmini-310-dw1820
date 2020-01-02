@@ -29,13 +29,12 @@ Bios Set:
 
 4. CSM disable
 
-5. CFG Lock: Disabled (关键，我BIOS没找到，如果找不到可以忽略试试）
-
    bios配置很重要，很多朋友都挂在这一步。我当时遗漏了XHCI Hand-off,浪费了小半天时间，sad。
+
 
 EFI Set:
 
-​	把启动U盘中的EFI删除，使用新的EFI进行替换，安装过程中WIFI能正常工作。如果没有无线网卡，建议删除EFI中的AirportBrcmFixup.kext、BrcmFirmwareRepo.kext、BrcmPatchRAM2.kext、BrcmBluetoothInjector，可能导致无法正常安装。
+​	把启动U盘中的EFI删除，使用新的EFI进行替换，安装过程中WIFI能正常工作。
 
 ### 其他
 
