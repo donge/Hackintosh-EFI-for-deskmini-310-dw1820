@@ -1,7 +1,7 @@
 # Hackintosh-EFI-for-deskmini-310-dw1820
 
 
-EFI 用于 10.15、11.0 Beta，可正常由10.15升级到11.0 Beta。安装后无需额外配置，除蓝牙外完美使用。oc 0.6.0版本
+EFI 用于 10.15、11.0.1 ，可正常由10.15升级到11.0.1 。安装后无需额外配置，除蓝牙外完美使用。oc 0.6.3版本
 
 ### 我的配置
 
@@ -33,9 +33,9 @@ Bios Set:
 
 EFI Set:
 
-​	把启动U盘中的EFI删除，使用新的EFI进行替换，安装过程中WIFI能正常工作。
+​	把启动U盘中的EFI删除，使用新的EFI进行替换(记得修改为自己序列号)，安装过程中WIFI能正常工作。
 
 ### 参考
 
-https://blog.xjn819.com/?p=7
+https://blog.xjn819.com/post/opencore-guide.html
 
